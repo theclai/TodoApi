@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.TodoController.GetAll">
+            <summary>
+            Get All Todo's
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetById(System.Int64)">
+            <summary>
+             Get Specific Todo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetIncomingTodoForToday(System.DateTime)">
+            <summary>
+            Get Incoming ToDo for today 
+            </summary>
+            <param name="today"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetIncomingTodoForNextDay(System.DateTime)">
+            <summary>
+            Get Incoming ToDo for next day 
+            </summary>
+            <param name="nextday"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.GetIncomingTodoForCurrenWeek(System.DateTime)">
+            <summary>
+            Get Incoming ToDo for today 
+            </summary>
+            <param name="today"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Create(TodoApi.Models.TodoItem)">
+            <summary>
+            Create Todo
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Update(System.Int64,TodoApi.Models.TodoItem)">
+            <summary>
+            Update Todo
+            </summary>
+            <param name="id"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.SetTodoPercent(System.Int64,TodoApi.Models.TodoItem)">
+            <summary>
+            SetTodoPercent
+            </summary>
+            <param name="id"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.MarkTodo(System.Int64,TodoApi.Models.TodoItem)">
+            <summary>
+            Mark Todo as Done
+            </summary>
+            <param name="id"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Delete(System.Int64)">
+            <summary>
+            Delete Todo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
